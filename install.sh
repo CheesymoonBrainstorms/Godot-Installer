@@ -53,8 +53,7 @@ sudo unzip $zipfile
 sudo rm -rvf $zipfile
 
 binaryfile="$(ls)"
-mkdir -p ~/.local/bin/
-sudo mv -v $binaryfile ~/.local/bin/godot
+sudo mv -v $binaryfile /usr/bin/godot
 
 cd ..
 sudo rm -rvf Godot-Install/
@@ -69,7 +68,7 @@ mkdir -p ~/.local/share/applications/Icons/
 cp -v Resources/icon.png ~/.local/share/applications/Icons/Godot.png
 
 printf "Creating ~/.local/share/applications/Godot.desktop\n"
-printf "[Desktop Entry]\nVersion=1.0\nName=Godot\nExec=$HOME/.local/bin/godot\nIcon=$HOME/.local/share/applications/Icons/Godot.png\nTerminal=false\nType=Application\nCategories=Utility;" > ~/.local/share/applications/Godot.desktop
+printf "[Desktop Entry]\nVersion=1.0\nName=Godot\nExec=/usr/bin/godot\nComment=Godot Game Engine\nIcon=$HOME/.local/share/applications/Icons/Godot.png\nTerminal=false\nType=Application\nCategories=Utility;" > ~/.local/share/applications/Godot.desktop
 printf "Done!"
 sleep 0.25
 
