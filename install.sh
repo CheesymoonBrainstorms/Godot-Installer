@@ -62,7 +62,7 @@ printf "\nExtracted Binary!\n\n"
 sleep 0.25
 
 
-stage "Creating application shortcut"
+stage "Creating Application Desktop Profile"
 
 mkdir -p ~/.local/share/applications/Icons/
 cp -v Resources/icon.png ~/.local/share/applications/Icons/Godot.png
