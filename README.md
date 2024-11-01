@@ -10,6 +10,19 @@ I know it may be useless but one day I was bored and said "Wait, Godot doesn't h
 
 Just clone the repo and run the Install.sh file.
 
+You can clone the repository by running the following
+
+```bash
+git clone https://github.com/CheesymoonBrainstorms/Godot-Installer.git
+```
+
+CD into it and run the installer
+
+```bash
+cd Godot-Installer/
+./install.sh
+```
+
 You will be prompted for the URL of a zip archive with the Godot binary file in it. You can use the zip file of one of the releases from Godot's GitHub like this one `https://github.com/godotengine/godot-builds/releases/download/4.3-stable/Godot_v4.3-stable_linux.x86_64.zip`
 
 ## Note
