@@ -1,3 +1,6 @@
+## ⚠️ This repository has been archived ⚠️
+#### This repository has been archived because a similar repository will be made. I am currently working on a "Bash Binary Installer".
+---
 # Unofficial Godot installer for Ubuntu Desktop
 
 ### This is an unofficial Godot installer for Ubuntu and probably all other Linux distros that use the GNOME DE  (IDK I NEVER TESTED).
