@@ -1,9 +1,8 @@
 ## ⚠️ This repository has been archived ⚠️
-#### This repository has been archived because a similar repository will be made. I am currently working on a "Bash Binary Installer".
----
-# Unofficial Godot installer for Ubuntu Desktop
+This repository has been archived because **it's just not worth it**
 
-### This is an unofficial Godot installer for Ubuntu and probably all other Linux distros that use the GNOME DE  (IDK I NEVER TESTED).
+# Unofficial Godot installer for Ubuntu Desktop
+This is an unofficial Godot installer for Ubuntu and probably all other Linux distros that use the GNOME DE  (IDK I NEVER TESTED).
 
 ## Why did i create this
 
@@ -11,15 +10,13 @@ I know it may be useless but one day I was bored and said "Wait, Godot doesn't h
 
 ## How to use
 
-Just clone the repo and run the Install.sh file.
-
-You can clone the repository by running the following
+Clone the repository by running the following
 
 ```bash
 git clone https://github.com/CheesymoonBrainstorms/Godot-Installer.git
 ```
 
-CD into it and run the installer
+`cd` into it and run the cloned repo and run the installer
 
 ```bash
 cd Godot-Installer/
