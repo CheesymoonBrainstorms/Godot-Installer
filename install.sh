@@ -8,7 +8,7 @@ stage() {
     sleep 0.25
 }
 
-stage "Updating system"
+stage "Updating the apt package list"
 sudo apt-get update
 sudo apt-get upgrade
 
